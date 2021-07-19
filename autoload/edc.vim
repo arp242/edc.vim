@@ -76,7 +76,7 @@ fun! edc#load_files() abort
 				endif
 			endfor
 
-			if l:found is# 0
+			if l:found is# 0 && len(l:v) > 0
 				call add(l:ret, l:v)
 			endif
 		endfor
