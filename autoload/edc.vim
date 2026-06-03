@@ -4,6 +4,10 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 fun! edc#init() abort
+	if &filetype == 'gitcommit'
+		return
+	endif
+
 	" Load file(s).
 	let b:edc_rules = {}
 	for l:v in edc#load_files()
@@ -297,7 +301,8 @@ fun! s:apply(rule, val) abort
 		endif
 
 		" TODO: set 'bomb'? Maybe parse value smarter?
-		let &l:fileencoding = a:val
+		" TODO: why has this started giving errors?
+		"let &l:fileencoding = a:val
 
 	elseif a:rule is# 'insert_final_newline'
 		if s:save('endofline', a:val) 

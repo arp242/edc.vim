@@ -1,0 +1,12 @@
+b:edc_errors	pi_edc.txt	/*b:edc_errors*
+b:edc_root	pi_edc.txt	/*b:edc_root*
+b:edc_rules	pi_edc.txt	/*b:edc_rules*
+b:edc_save	pi_edc.txt	/*b:edc_save*
+edc	pi_edc.txt	/*edc*
+edc-settings	pi_edc.txt	/*edc-settings*
+edc-tips	pi_edc.txt	/*edc-tips*
+edc-variables	pi_edc.txt	/*edc-variables*
+editorconfig	pi_edc.txt	/*editorconfig*
+g:edc_ignore	pi_edc.txt	/*g:edc_ignore*
+g:edc_silent	pi_edc.txt	/*g:edc_silent*
+pi_edc.txt	pi_edc.txt	/*pi_edc.txt*
